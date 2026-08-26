@@ -1,6 +1,6 @@
 function Card({ nome, descricao, image }) {
   return (
-    <div className="flex flex-col w-70 p-8 gap-4 border border-gray-500 rounded-md">
+    <div className="flex flex-col w-70 p-4 gap-4 border border-gray-500 rounded-md">
       <img src={image} alt="Imagem produto" className="w-full" />
       <div className="flex flex-col gap-3 ">
         <p className="text-xl font-bold "> {nome}</p>
